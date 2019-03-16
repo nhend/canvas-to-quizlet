@@ -7,7 +7,7 @@ Simple script to convert an HTML file of a completed Canvas quiz to a Quizlet fl
 This project was started out of need, and served as a good exercise in parsing HTML with Regex (something I'm utilizing in a larger future project.)
 
 ## Usage
-You should begin with a completed Canvas quiz, where correct answers are marked as such.
+You should begin with a completed Canvas quiz, where correct answers are marked:
 
 ![Canvas Quiz Example](https://i.imgur.com/JzOWMij.png)
 
