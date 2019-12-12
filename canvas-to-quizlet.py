@@ -27,7 +27,7 @@ def convert(file: str) -> dict:
         if '&lt' not in pair and 'All of the above' not in raw_pairs[pair]:
             pairs[pair] = raw_pairs[pair]
 
-    # Some questions have images have answers. Again, these must be ignored so we keep only questions with text answers
+    # Some questions have images as answers. Again, these must be ignored so we keep only questions with text answers
     pairs = {k: v for k, v in pairs.items() if len(v) >= 1}
 
     return pairs
